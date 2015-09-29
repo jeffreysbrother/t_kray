@@ -445,13 +445,6 @@ include 'inc/head.php';
                 <p>
               I created about 10-15 maps from 2001-2003, most of which were lost during a hard drive crash. I still have some of the bsp files though. I will eventually load them up in Counter-Strike and take some screenshots. Unfortunately, these two
               screenshots are all I could find on my current hard drive.</div>
-          <div class="bottom_spacer"></div>
-          <div id="back_top" class="content">
-            > <a href="#top">BACK TO TOP</a>
-          </div>
-          <div id="footer">
-            <p>COPYRIGHT © 2015 TIM KRAY - TEMPORARY WEBSITE ONLY!</div>
-            <!-- </div> -->
-</body>
-
-</html>
+<?php
+  include 'inc/footer.php';
+?>

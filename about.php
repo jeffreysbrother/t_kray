@@ -148,13 +148,7 @@
           <li>Maintained POS system.</li>
         </ul>
     </div>
-    <div class="bottom_spacer"></div>
-    <div id="back_top" class="content">
-      > <a href="#top">BACK TO TOP</a>
-    </div>
-    <div id="footer">
-      <p>COPYRIGHT © 2015 TIM KRAY - TEMPORARY WEBSITE ONLY!</div>
 
-</body>
-
-</html>
+<?php
+  include 'inc/footer.php';
+?>

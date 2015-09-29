@@ -10,9 +10,7 @@ include 'inc/head.php';
       <h1>CONTACT ME:</h1>You can reach me by email at <a href="mailto:tkray@tri-dynamic.com?subject=Hello%20There">tkray@planarform.com</a>.
       <p>
     </div>
-    <div id="footer">
-      <p>COPYRIGHT © 2015 TIM KRAY - TEMPORARY WEBSITE ONLY!</div>
 
-</body>
-
-</html>
+<?php
+  include 'inc/footer.php';
+?>
