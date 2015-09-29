@@ -12,7 +12,6 @@
 @media screen and (max-width: 677px) {
   #top_left, #top_right {
     display: none !important;
-    ;
   }
 }
 body {
@@ -50,6 +49,7 @@ h2 {
   font-weight: 300;
   font-size: 17px;
   letter-spacing: 5px;
+  text-align: center;
 }
 h3 {
   font-family: 'Unica One', sans-serif;
@@ -164,7 +164,7 @@ a:hover {
 #top_spacer {
   height: 35px;
 }
-#bottom_spacer {
+.bottom_spacer {
   height: 35px;
 }
 #footer {
@@ -199,35 +199,21 @@ a:hover {
   padding-right: 10%;
   margin: 0px;
 }
-.content {
+.content1 {
   background-color: #212427;
-  vertical-align: middle;
+  /*vertical-align: middle;*/
   color: #a1a1a1;
-  text-align: justify;
+  /*text-align: justify;*/
   font-size: 14px;
   padding-top: 20px;
   padding-bottom: 60px;
-  padding-left: 5%;
-  padding-right: 5%;
+  padding-left: 30px;
+  padding-right: 30px;
   max-width: 635px;
   margin-left: 10%;
   margin-right: 10%;
   border: 1px solid #1d1d1d;
-}
-.basic_content {
-  background-color: #212427;
-  vertical-align: middle;
-  color: #a1a1a1;
-  text-align: justify;
-  font-size: 14px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 5%;
-  padding-right: 5%;
-  max-width: 635px;
-  margin-left: 10%;
-  margin-right: 10%;
-  border: 1px solid #1d1d1d;
+  margin: 0 auto;
 }
 /*TERMINAL CSS BELOW*/
 .terminal .terminal-output .format, .cmd .format, .cmd .prompt, .cmd .prompt div, .terminal .terminal-output div div {
@@ -260,12 +246,7 @@ a:hover {
 .cmd {
   padding: 0;
   margin: 0;
-  /*height: 1.3em;*/
 
-  `
-  /*margin-top: 3px; */
-
-  ;
 }
 .cmd .cursor.blink {
   -webkit-animation: blink 1s infinite steps(1, start);
