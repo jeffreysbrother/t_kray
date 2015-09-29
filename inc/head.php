@@ -25,7 +25,7 @@
       <div id="top_left">TIMOTHY P. KRAY</div>
         <div id="top_items">
           <ul>
-            <li><a href="#">PORTFOLIO</a></li>
+            <li><a href="index.php">PORTFOLIO</a></li>
             <li><a href="about.php">ABOUT</a></li>
             <li><a href="contact.php">CONTACT</a></li>
           </ul>
