@@ -1,0 +1,425 @@
+@import  "http://fonts.googleapis.com/css?family=Roboto:300,500";
+
+@import  "http://fonts.googleapis.com/css?family=Unica+One:400";
+
+@import  "http://fonts.googleapis.com/css?family=Ubuntu+Mono";
+
+/*Created by Tim Kray 2015*/
+/*@import url(http://fonts.googleapis.com/css?family=Open+Sans:300, 400, 600);*/
+/*Terminal Font*/
+@media screen and (max-width: 677px) {
+#top_left,#top_right {
+    display: none!important
+}
+}
+
+body {
+    width: 100%;
+    margin: 0;
+    letter-spacing: .5px;
+    color: #a1a1a1;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+/*background-image: url("img/bg.png"); background-repeat: repeat;*/
+    background-color: #1b1d20;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+ul {
+    list-style-position: inside
+}
+
+b {
+    color: #49a078;
+    font-weight: 300
+}
+
+h1 {
+    font-family: 'Unica One',sans-serif;
+    color: #b7efa1;
+    font-weight: 400;
+    font-size: 15px
+}
+
+h2 {
+    color: #fff;
+    font-weight: 300;
+    font-size: 17px;
+    letter-spacing: 5px
+}
+
+h3 {
+    font-family: 'Unica One',sans-serif;
+    color: #ebf692;
+    font-weight: 400;
+    font-size: 15px
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto
+}
+
+#tk_img {
+    margin-left: 30px;
+    margin-bottom: 15px
+}
+
+#top_bar {
+    font-family: 'Unica One',sans-serif;
+/*word-spacing: 5vw;*/
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 34px;
+    width: 100%;
+    min-width: 400px;
+    vertical-align: middle;
+    background-color: #1b1c1e;
+    line-height: 34px;
+    font-size: 17px;
+    border-bottom: solid 1px #2d2d2d;
+    border-top: solid 1px #2d2d2d;
+    opacity: .9;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+#top_left {
+    color: #fff;
+    float: left;
+    padding-left: 22px;
+    min-width: 120px;
+    display: inline-block
+}
+
+#top_right {
+    float: right;
+    min-width: 120px;
+    display: inline-block
+}
+
+#top_items {
+    margin: 0 auto;
+    min-width: 300px;
+    display: inline-block
+}
+
+#top_items ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden
+}
+
+#top_items li {
+    float: left
+}
+
+#top_items a:link,a:visited {
+    display: block;
+    width: 120px;
+    text-align: center;
+    padding-left: 4px;
+    padding-right: 4px
+}
+
+#top_items a:hover,a:active {
+    background-color: #272727
+}
+
+#back_top {
+    font-family: 'Unica One',sans-serif
+}
+
+a {
+    color: #57d0ff;
+    font-weight: 300;
+    -o-transition: 1s;
+    -ms-transition: 1s;
+    -moz-transition: 1s;
+    -webkit-transition: 1s;
+    transition: 1s;
+    text-decoration: none
+}
+
+a:hover {
+    color: #fff;
+    -o-transition: 0;
+    -ms-transition: 0;
+    -moz-transition: 0;
+    -webkit-transition: 0;
+    transition: 0
+}
+
+::-webkit-scrollbar {
+    width: 10px
+}
+
+::-webkit-scrollbar-track {
+    background-color: #272727
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #dd5a26
+}
+
+::-webkit-scrollbar-button {
+    background-color: #1d1d1d;
+    height: 36px;
+    border-bottom: solid 1px #2d2d2d;
+    border-top: solid 1px #2d2d2d
+}
+
+#top_spacer {
+    height: 35px
+}
+
+#bottom_spacer {
+    height: 35px
+}
+
+#footer {
+    font-family: 'Unica One',sans-serif;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 34px;
+    width: 100%;
+    min-width: 450px;
+    vertical-align: middle;
+    background-color: #1b1c1e;
+    font-size: 12px;
+    line-height: 9px;
+    border-bottom: solid 1px #2d2d2d;
+    border-top: solid 1px #2d2d2d;
+    opacity: .95;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+}
+
+#title {
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin: 0
+}
+
+.content {
+    background-color: #212427;
+    vertical-align: middle;
+    color: #a1a1a1;
+    text-align: justify;
+    font-size: 14px;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    padding-left: 5%;
+    padding-right: 5%;
+    max-width: 635px;
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 1px solid #1d1d1d
+}
+
+.basic_content {
+    background-color: #212427;
+    vertical-align: middle;
+    color: #a1a1a1;
+    text-align: justify;
+    font-size: 14px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    max-width: 635px;
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 1px solid #1d1d1d
+}
+
+/*TERMINAL CSS BELOW*/
+.terminal .terminal-output .format,.cmd .format,.cmd .prompt,.cmd .prompt div,.terminal .terminal-output div div {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    display: inline-block
+}
+
+.cmd .clipboard {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    opacity: .01;
+    filter: alpha(opacity = 0.01);
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0.01);
+    width: 2px
+}
+
+.cmd > .clipboard {
+    position: fixed
+}
+
+.terminal {
+    padding: 1px;
+    position: relative;
+    overflow: hidden;
+    border-bottom: #1d1d1d solid 1px
+}
+
+.cmd {
+    padding: 0;
+    margin: 0;
+/*height: 1.3em;*/
+    `/margin-top: 3px
+}
+
+.cmd .cursor.blink {
+    -webkit-animation: blink 1s infinite steps(1,start);
+    -moz-animation: blink 1s infinite steps(1,start);
+    -ms-animation: blink 1s infinite steps(1,start);
+    animation: blink 1s infinite steps(1,start)
+}
+
+@keyframes blink {
+0%,100% {
+    background-color: #212121;
+    color: #fff
+}
+
+50% {
+    background-color: #fff;
+/* not #aaa because it's seem there is Google Chrome bug */
+    color: #212121
+}
+}
+
+@-webkit-keyframes blink {
+0%,100% {
+    background-color: #212121;
+    color: #fff
+}
+
+50% {
+    background-color: #fff;
+    color: #212121
+}
+}
+
+@-ms-keyframes blink {
+0%,100% {
+    background-color: #212121;
+    color: #fff
+}
+
+50% {
+    background-color: #fff;
+    color: #212121
+}
+}
+
+@-moz-keyframes blink {
+0%,100% {
+    background-color: #212121;
+    color: #fff
+}
+
+50% {
+    background-color: #fff;
+    color: #212121
+}
+}
+
+.terminal .terminal-output div div,.cmd .prompt {
+    display: block;
+    line-height: 16px;
+    height: auto
+}
+
+.cmd .prompt {
+/*color: #77ff8d;*/
+    float: left
+}
+
+.terminal,.cmd {
+    font-family: 'Ubuntu Mono',monospace;
+    color: #fff;
+    background-color: #212121;
+    opacity: .9;
+    font-size: 16px;
+    line-height: 16px
+}
+
+.terminal-output > div {
+/*padding-top: 3px;*/
+    min-height: 16px
+}
+
+.terminal .terminal-output div span {
+    display: inline-block
+}
+
+.cmd span {
+    float: left
+/*display: inline-block; */
+}
+
+.terminal .inverted,.cmd .inverted,.cmd .cursor.blink {
+    background-color: #fff;
+    color: #000
+}
+
+.terminal .terminal-output div div::-moz-selection,.terminal .terminal-output div span::-moz-selection,.terminal .terminal-output div div a::-moz-selection {
+    background-color: #fff;
+    color: #000
+}
+
+.terminal .terminal-output div div::selection,.terminal .terminal-output div div a::selection,.terminal .terminal-output div span::selection,.cmd > span::selection,.cmd .prompt span::selection {
+    background-color: #fff;
+    color: #000
+}
+
+.terminal .terminal-output div.error,.terminal .terminal-output div.error div {
+    color: #f6615a
+}
+
+.tilda {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1100
+}
+
+.clear {
+    clear: both
+}
+
+.terminal a {
+    color: #5a95f6
+/*#0F60FF;*/
+}
+
+.terminal a:hover {
+    color: red
+}
