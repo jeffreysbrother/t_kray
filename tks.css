@@ -1,5 +1,5 @@
 /*Created by Tim Kray 2015*/
-
+/*modified by James Cool September 2015*/
 
 /*@import url(http://fonts.googleapis.com/css?family=Open+Sans:300, 400, 600);*/
 
@@ -350,13 +350,13 @@ a:hover {
 .terminal .terminal-output div.error, .terminal .terminal-output div.error div {
   color: #f6615a;
 }
-.tilda {
+/*.tilda {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   z-index: 1100;
-}
+}*/
 .clear {
   clear: both;
 }

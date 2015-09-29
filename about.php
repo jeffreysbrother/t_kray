@@ -1,39 +1,7 @@
-<!doctype html>
-<html>
+<?php
+  include 'inc/head.php';
+?>
 
-<head>
-  <title>Tim Kray - About</title>
-  <meta charset="utf-8">
-  <meta name "viewport" content="width=device-width, intial-scale=1.0">
-  <meta name="author" content="Tim Kray">
-  <meta name="description" content="Tim Kray - Portfolio: Software Designer and Developer">
-  <meta name="keywords" content="portfolio,art,tri dynamic,tri,dynamic,tri-dynamic,tridynamic,fun,arcade,web,design,development,app,apps,mobile,game,games,ios,android,pc,software,utility,business,engineering,tim,ben,kray">
-  <link rel="stylesheet" type="text/css" href="tks.css">
-  <link rel="shortcut icon" href="http://www.planarform.com/img/icon.ico" type="image/x-icon">
-  <script src="js/common.js"></script>
-  <script src="js/jquery-1.7.1.min.js"></script>
-  <script src="js/jm-min.js"></script>
-  <script src="js/jt-min.js"></script>
-  <script src="js/tt.js"></script>
-  <!--[if IE]><style>body { margin: 0; padding: 0;}.tilda { position: absolute;}</style><script>jQuery(document).ready(function($) { $(window).scroll(function() { $('.tilda').each(function() { $(this).css({top: $('body').prop('scrollTop')}); }); });});</script><![endif]-->
-</head>
-
-<body onload="startTime()">
-  <div id="tilda"></div>
-
-    <div id="top_bar">
-      <div id="top_left">TIMOTHY P. KRAY</div>
-      <div id="top_items">
-        <ul>
-          <li><a href="index.html">PORTFOLIO</a></li>
-          <li><a href="#">ABOUT</a></li>
-          <li><a href="contact.html">CONTACT</a></li>
-        </ul>
-      </div>
-      <div id="top_right">
-        <div id="showTime"></div>
-      </div>
-    </div>
     <div id="top_spacer"></div>
     <div id="title">
       <h2>ABOUT</h2>
