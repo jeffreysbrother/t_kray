@@ -103,13 +103,7 @@
           <li>Greeted customers entering and exiting the store front.</li>
         </ul>
     </div>
-    <div class="content1">
-      <h3>ABERCROMBIE & FITCH - CERRITOS, CA: 11/2010-05/2011</h3><b>Position:</b> Model (Retail Sales Associate)
-      <p>
-        <ul>
-          <li>Provided sales, customer service, and maintained POS system.</li>
-        </ul>
-    </div>
+
     <div class="content1">
       <h3>MY GEAR STORE INC. - SIGNAL HILL, CA: 07/2007-11/2008</h3><b>Position:</b> Graphic/Web Developer & IT Specialist
       <p>

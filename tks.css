@@ -168,6 +168,12 @@ a:hover {
   margin-left: -24px;
 }
 
+/*img {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}*/
+
+
 /*TERMINAL CSS BELOW*/
 .terminal .terminal-output .format, .cmd .format, .cmd .prompt, .cmd .prompt div, .terminal .terminal-output div div {
   display: inline-block;

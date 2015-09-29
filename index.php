@@ -6,18 +6,8 @@ include 'inc/head.php';
     <div id="title">
       <h2>PORTFOLIO</h2>
     </div>
-    <!-- <div class="basic_content">
-      <h1>NOTE:</h1>I quickly threw these pages up as placeholders. The main website is still under development. Please forgive me for any visual and programmatical inconvenience.
-      <p> -Tim Kray
-        <p>
 
-            <img align="left" src="img/down.png">
-            <img src="img/down.png">
-            <img align="right" src="img/down.png">
-
-    </div> -->
     <div class="bottom_spacer"></div>
-    <!-- <div class="container"> -->
     <div class="content1">
       <h1>ATLAS V ALBUM ARTWORK - WANDERERS:</h1>
       <b>Active Development:</b> 2015
@@ -86,7 +76,6 @@ include 'inc/head.php';
             </ul><b>Note:</b> This software was created internally for <a target="_blank" href="http://www.oleumtech.com">OleumTech Corporation</a> and is unavailable for public use.</div>
     <div class="content1">
       <h1>SPACE DRIFTER:</h1><b>Active Development:</b> 2015
-      <p>
 
           <a target="_blank" href="img/space_drifter.png">
             <img style="border: 5px solid #1e1e1e;" src="img/space_drifter_thumb.png">
@@ -94,19 +83,17 @@ include 'inc/head.php';
           <p>
         This is a new mobile app that my brother and I are working on. I just started creating the concept artwork. This is still a work in progress. The concept involves moving a character side to side in order to hit the targets. Once a target is hit,
         the character is propelled up higher. The higher you get off the planet, the more points you will achieve. We have plans for additional features and mechanics.
-        <p>
+      </p>
             <img style="border: 5px solid #1e1e1e;" src="img/sd_teaser_anim2.gif">
-            <p>
-          <b>Other Features:</b>
+          <p><b>Other Features:</b></p>
           <p>
             <ul>
-              <li>Fast paced arcade game utilizing a physics engine</li>
+              <li>Fast-paced arcade game utilizing a physics engine</li>
               <li>Completely custom audio and visuals</li>
               <li>Leaderboards through iOS Gamecenter</li>
             </ul><b>Note:</b> This app will most likely be released free for download on the iOS app store when it is complete.</div>
     <div class="content1">
       <h1>TRIANGLE TIME:</h1><b>Active Development:</b> 2015
-      <p>
 
           <a target="_blank" href="https://appsto.re/us/7eQj5.i">
             <img style="border: 5px solid #1e1e1e;" src="img/tts_thumb.png">
@@ -114,15 +101,13 @@ include 'inc/head.php';
           <p>
         This was originally a web game developed by my brother, <a target="_blank" href="http://benkray.tri-dynamic.com">Ben Kray</a>, for a class he was taking in school. Eventually we thought of redesigning and developing it for iOS. I created all of
         the visuals and animation while he worked on the code and music. Together we created an extremly simple, yet addicting game. The objective of the game is simply to avoid getting hit by the falling cubes. Difficulty increases as time goes on.
-        <p>
+      </p>
 
             <a target="_blank" href="https://appsto.re/us/7eQj5.i">
               <img src='img/ios_badge.png'>
             </a>
 
-            <p>
-          <b>Features:</b>
-          <p>
+          <p><b>Features:</b></p>
             <ul>
               <li>Fast-paced arcade game utilizing a physics engine</li>
               <li>Completely custom audio and visuals</li>
@@ -130,7 +115,6 @@ include 'inc/head.php';
             </ul><b>Note:</b> This app is <a target="_blank" href="https://appsto.re/us/7eQj5.i">free</a> and compatible with iOS 6.0 and greater (although optimized for iOS 8.1).</div>
     <div class="content1">
       <h1>CUSTOM MODBUS TEST SOFTWARE:</h1><b>Active Development:</b> 2014-2015
-      <p>
 
           <a target="_blank" href="img/modbus_software.png">
             <img style="border: 5px solid #1e1e1e;" src="img/modbus_software_thumb.png">
@@ -143,7 +127,6 @@ include 'inc/head.php';
         I designed this software for internal use only, for myself and other test engineers. The objective was to utilize Modbus communication protocol in conjunction with any device capable of Modbus RTU communication. There are a lot of professional
         programs available for this, but none of them met my standards, and often had critical bugs preventing efficient testing, so I ended up writing my own.
         <p><b>Features:</b>
-          <p>
             <ul>
               <li>Cross-Platform (Linux/OSX)</li>
               <li>Modbus RTU Communication (Serial RS232/RS485)</li>
@@ -163,8 +146,6 @@ include 'inc/head.php';
             </ul><b>Note:</b> This software was created internally for <a target="_blank" href="http://www.oleumtech.com">OleumTech Corporation</a> and is unavailable for public use.</div>
     <div class="content1">
       <h1>CUSTOM RESISTANCE MEASUREMENT TEST SOFTWARE:</h1><b>Active Development:</b> 2014-2015
-      <p>
-
           <a target="_blank" href="img/resistance_software.png">
             <img style="border: 5px solid #1e1e1e;" src="img/resistance_software_thumb.png">
           </a>
@@ -180,7 +161,6 @@ include 'inc/head.php';
             </ul><b>Note:</b> This software was created internally for <a target="_blank" href="http://www.oleumtech.com">OleumTech Corporation</a> and is unavailable for public use.</div>
     <div class="content1">
       <h1>NUGENSOFT, LLC. DESIGN:</h1><b>Active Development:</b> 2014
-      <p>
 
           <a target="_blank" href="img/nugen_1.png">
             <img style="border: 5px solid #1e1e1e;" src="img/nugen_1_thumb.png">
@@ -198,7 +178,6 @@ include 'inc/head.php';
         Designed the logo and business cards for a software start-up company. The information on the card design was provided as a sample. Logo was designed using 3D Studio Max and Photoshop.</div>
     <div class="content1">
       <h1>TECHSUPPORT SELF SERVICE PORTAL:</h1><b>Active Development:</b> 2014
-      <p>
 
           <a target="_blank" href="img/otc_self_service_1.png">
             <img style="border: 5px solid #1e1e1e;" src="img/otc_self_service_thumb_1.png">
@@ -214,10 +193,10 @@ include 'inc/head.php';
           <br>
           <p>
         Designed and developed the framework for a customer and training self service portal for the technical support department at OleumTech Corporation. Very simple. Utilizes a search engine and includes 2 visual themes. This was created as a concept
-        to help alleviate Level 1 calls from the techsupport team, as well as to train new technicians. This was not made public yet.</div>
+        to help alleviate Level 1 calls from the techsupport team, as well as to train new technicians. This was not made public yet.</p>
+      </div>
     <div class="content1">
       <h1>ATLAS V ALBUM ARTWORK:</h1><b>Active Development:</b> 2012-2013
-      <p>
 
           <a target="_blank" href="img/atlasv_intothesun.png">
             <img style="border: 5px solid #1e1e1e;" src="img/atlasv_intothesun_thumb.png">
@@ -235,10 +214,10 @@ include 'inc/head.php';
             <img style="border: 5px solid #1e1e1e;" src="img/atlas_risforrocket_thumb.png">
           </a>
           <br>
-          <p>
-        Designed the logo and album artwork for ATLAS V (Formerly known as ATLAS).
-        <p><b>You can listen to their music here:</b>
-          <p>
+        <p>
+          Designed the logo and album artwork for ATLAS V (Formerly known as ATLAS).
+          <b>You can listen to their music here:</b>
+        </p>
             <ul>
               <li>iTunes: <a target="_blank" href="https://itunes.apple.com/us/artist/atlas-v/id659691329">ATLAS V: Into The Sun</a></li>
               <li>iTunes: <a target="_blank" href="https://itunes.apple.com/us/album/r-is-for-rocket/id531953058">ATLAS V: R Is For Rocket</a></li>
@@ -250,7 +229,6 @@ include 'inc/head.php';
     </div>
     <div class="content1">
       <h1>KAINE: SENTINEL OF THE SHADOW:</h1><b>Active Development:</b> 2012
-      <p>
 
           <a target="_blank" href="img/kaine_w.jpg">
             <img style="border: 5px solid #1e1e1e;" src="img/kaine_w_thumb.png">
@@ -282,11 +260,12 @@ include 'inc/head.php';
           </a>
           <br>
           <p>
-        Gantz has been my favorite manga for a very long time. So I decided to draw my own character in the Gantz world. I think a lot of people confused him with the series' main character, Kurono Kei. I have yet to name this character though.
-        <p><b>Note:</b>This is also located on my now 'dead' <a target="_blank" href="http://timkray.deviantart.com/">Deviant Art</a> page <a target="_blank" href="http://timkray.deviantart.com/art/Gantz-Character-102-296571342">here</a>.</div>
+        Gantz has been my favorite manga for a very long time. So I decided to draw my own character in the Gantz world. I think a lot of people confused him with the series' main character, Kurono Kei. I have yet to name this character though.</p>
+        <p><b>Note:</b>This is also located on my now 'dead' <a target="_blank" href="http://timkray.deviantart.com/">Deviant Art</a> page <a target="_blank" href="http://timkray.deviantart.com/art/Gantz-Character-102-296571342">here</a>.</p>
+        </div>
+
           <div class="content1">
             <h1>Miscellaneous Digital Film:</h1><b>Active Development:</b> 2011-2012
-            <p>
 
                 <a target="_blank" href="https://youtu.be/XKrhdzuzx4s">
                   <img style="border: 5px solid #1e1e1e;" src="img/kiba_1_thumb.png">
@@ -304,23 +283,22 @@ include 'inc/head.php';
                   <img style="border: 5px solid #1e1e1e;" src="img/slow_1_thumb.png">
                 </a>
                 <br>
-                <p>
-              A few digital film tests using a Canon 7D and a Sony FS700. Slow motion was alot less accessable before smart phones could film in high framerates.</div>
+
+              <p>A few digital film tests using a Canon 7D and a Sony FS700. Slow motion was alot less accessable before smart phones could film in high framerates.</p>
+            </div>
+
           <div class="bottom_spacer"></div>
           <div class="content1">
-            <h1>ARCHIVED WORK:</h1>Below contains some of the work that I had managed to dig up from my old HDD backups that had eventually crashed. Unfortunately I lost almost half of my work dating back from 2000. I'm not particularly happy with most of
+            <h1>ARCHIVED WORK:</h1>
+            <p>Below contains some of the work that I had managed to dig up from my old HDD backups that had eventually crashed. Unfortunately I lost almost half of my work dating back from 2000. I'm not particularly happy with most of
             my old work, at least looking back on it now with recent improvements in todays graphics potential.
-            <p>
+            </p>
 
-                <!-- <img align="left" src="img/down.png">
-                <img src="img/down.png">
-                <img align="right" src="img/down.png"> -->
 
           </div>
           <div class="bottom_spacer"></div>
           <div class="content1">
             <h1>Miscellaneous Business:</h1><b>Active Development:</b> 2007-2008
-            <p>
 
                 <a target="_blank" href="img/business_1.jpg">
                   <img style="border: 5px solid #1e1e1e;" src="img/business_1_thumb.png">
@@ -336,41 +314,41 @@ include 'inc/head.php';
                 <br>
                 <p>
               This is a small compilation of some of my older work when I was a web developer/graphic designer for an internet retail and distribution company. The now "out of date" art style used in these reflects the time when smartphones started to
-              come into the market, specifically the Apple iPhone.</div>
+              come into the market, specifically the Apple iPhone.</p>
+            </div>
           <div class="content1">
             <h1>Character 23:</h1><b>Active Development:</b> 2007
-            <p>
 
                 <a target="_blank" href="img/char_23.png">
                   <img style="border: 5px solid #1e1e1e;" src="img/char_23_thumb.png">
                 </a>
                 <br>
                 <p>
-              This is a fairly old digital drawing based off of an actress. I had posted this somewhere before, but I cant remember where at the moment.</div>
+              This is a fairly old digital drawing based off of an actress. I had posted this somewhere before, but I cant remember where at the moment.</p>
+            </div>
           <div class="content1">
             <h1>Edward Elric LOW-POLY 3D Model:</h1><b>Active Development:</b> 2005
-            <p>
 
                 <a target="_blank" href="img/ed_elric.png">
                   <img style="border: 5px solid #1e1e1e;" src="img/ed_elric_thumb.png">
                 </a>
                 <br>
                 <p>
-              It's a low-poly model of an anime character from a popular series called, Full Metal Alchemist. I believe I ended up giving it to a friend to animate for a Half-Life mod. I'm not sure whatever became of it actually haha!</div>
+              It's a low-poly model of an anime character from a popular series called, Full Metal Alchemist. I believe I ended up giving it to a friend to animate for a Half-Life mod. I'm not sure whatever became of it actually haha!</p>
+            </div>
           <div class="content1">
             <h1>Gohan LOW-POLY 3D Model:</h1><b>Active Development:</b> 2004
-            <p>
 
                 <a target="_blank" href="img/gohan.png">
                   <img style="border: 5px solid #1e1e1e;" src="img/gohan_thumb.png">
                 </a>
                 <br>
-                <p>
+              <p>
               It's a low-poly model of an anime character from a popular series called, Dragon Ball Z. I never even finished it! I had originally intended to release it as a model replacement for gohan in an old popular Half-Life mod called, Earth's Special
-              Forces.</div>
+              Forces. </p>
+            </div>
           <div class="content1">
             <h1>TRIGUN LOW-POLY 3D Models:</h1><b>Active Development:</b> 2004
-            <p>
 
                 <a target="_blank" href="img/long_colts.png">
                   <img style="border: 5px solid #1e1e1e;" src="img/long_colts_thumb.png">
@@ -385,13 +363,11 @@ include 'inc/head.php';
                 </a>
                 <br>
                 <p>
-              These models were all made for an old Half-Life mod called, Trigun: Escape From Pain. They are all first person <b>"player view models"</b> so some may seem somewhat incomplete. I was part of the development team in highschool. I cant stand
-              looking at some of the textures on these now! Two of them were "modified" by an apprentice of mine at the time, who was still learning about skinning.
-              <p>The team eventually split up after a public alpha build was released. Everyone just was busy with their own lives. A few of these models, including the actual player models(Vash and Knives) were released for use in a Half-Life mod called,
-                The Specialists. They were complete with custom sounds and animations.</div>
+              These models were all made for an old Half-Life mod called, Trigun: Escape From Pain. They are all first person <b>"player view models"</b> so some may seem somewhat incomplete. I was part of the development team in highschool. I cant stand looking at some of the textures on these now! Two of them were "modified" by an apprentice of mine at the time, who was still learning about skinning.</p>
+              <p>The team eventually split up after a public alpha build was released. Everyone just was busy with their own lives. A few of these models, including the actual player models(Vash and Knives) were released for use in a Half-Life mod called The Specialists. They were complete with custom sounds and animations.</p>
+              </div>
           <div class="content1">
             <h1>SHINING GUNDAM LOW-POLY 3D Models:</h1><b>Active Development:</b> 2004
-            <p>
 
                 <a target="_blank" href="img/shining_gundam_1.png">
                   <img style="border: 5px solid #1e1e1e;" src="img/shining_gundam_1_thumb.png">
@@ -413,12 +389,11 @@ include 'inc/head.php';
                   <img style="border: 5px solid #1e1e1e;" src="img/shining_gundam_3_thumb.png">
                 </a>
                 <br>
-                <p>
-              This model was being made for an old Half-Life mod called, Mechmod. I had just joined the development team as a modeler, shortly before they actually disbanded. It was unfortunate because the game was coming along nicely. It was even featured
-              in an issue of PC Gamer Magazine.</div>
+              <p>This model was being made for an old Half-Life mod called, Mechmod. I had just joined the development team as a modeler, shortly before they actually disbanded. It was unfortunate because the game was coming along nicely. It was even featured
+              in an issue of PC Gamer Magazine. </p>
+            </div>
           <div class="content1">
             <h1>KOTOR LEVEL DESIGN:</h1><b>Active Development:</b> 2003
-            <p>
 
                 <a target="_blank" href="img/kotor_1.png">
                   <img style="border: 5px solid #1e1e1e;" src="img/kotor_1_thumb.png">
@@ -428,12 +403,11 @@ include 'inc/head.php';
                   <img style="border: 5px solid #1e1e1e;" src="img/kotor_2_thumb.png">
                 </a>
                 <br>
-                <p>
-              This map was created as a custom level for a game called Star Wars: Jedi Knight: Jedi Academy. That one tree in the back is just driving me nuts... Looking back at my old work makes me cringe sometimes! I also never got around to finishing
-              this.</div>
+              <p>This map was created as a custom level for a game called Star Wars: Jedi Knight: Jedi Academy. That one tree in the back is just driving me nuts... Looking back at my old work makes me cringe sometimes! I also never got around to finishing
+              this.</p>
+            </div>
           <div class="content1">
             <h1>HL: COUNTER-STRIKE LEVEL DESIGN:</h1><b>Active Development:</b> 2001-2003
-            <p>
 
                 <a target="_blank" href="img/dust_map.png">
                   <img style="border: 5px solid #1e1e1e;" src="img/dust_map_thumb.png">
@@ -445,7 +419,8 @@ include 'inc/head.php';
                 <br>
                 <p>
               I created about 10-15 maps from 2001-2003, most of which were lost during a hard drive crash. I still have some of the bsp files though. I will eventually load them up in Counter-Strike and take some screenshots. Unfortunately, these two
-              screenshots are all I could find on my current hard drive.</div>
+              screenshots are all I could find on my current hard drive.</p>
+            </div>
 <?php
   include 'inc/footer.php';
 ?>
