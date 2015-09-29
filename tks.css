@@ -20,18 +20,9 @@ body {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   font-size: 14px;
-  /*background-image: url("img/bg.png"); background-repeat: repeat;*/
   background-color: #1b1d20;
-  /*-webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;*/
 }
-ul {
-  list-style-position: inside;
-}
+
 b {
   color: #49a078;
   font-weight: 300;
@@ -80,69 +71,38 @@ img {
   border-bottom: solid 1px #2d2d2d;
   border-top: solid 1px #2d2d2d;
   opacity: 0.90;
-  /*-webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;*/
 }
 #top_left {
   color: white;
   float: left;
   padding-left: 22px;
   min-width: 120px;
-  display: inline-block;
 }
 #top_right {
   float: right;
   min-width: 120px;
-  display: inline-block;
 }
 #top_items {
-  margin: 0 auto;
-  min-width: 300px;
   display: inline-block;
 }
-#top_items ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
+
 #top_items li {
-  float: left;
+  display: inline;
+  padding-left: 25px;
+  padding-right: 25px;
 }
-#top_items a:link, a:visited {
-  display: block;
-  width: 120px;
-  text-align: center;
-  padding-left: 4px;
-  padding-right: 4px;
-}
-#top_items a:hover, a:active {
-  background-color: #272727;
-}
+
 #back_top {
   font-family: 'Unica One', sans-serif;
 }
 a {
   color: #57d0ff;
   font-weight: 300;
-  -o-transition: 1s;
-  -ms-transition: 1s;
-  -moz-transition: 1s;
-  -webkit-transition: 1s;
-  transition: 1s;
   text-decoration: none;
 }
 a:hover {
   color: white;
-  -o-transition: 0s;
-  -ms-transition: 0;
-  -moz-transition: 0s;
-  -webkit-transition: 0s;
-  transition: 0s;
+  text-decoration: none;
 }
 ::-webkit-scrollbar {
   width: 10px;
@@ -173,19 +133,12 @@ a:hover {
   height: 34px;
   width: 100%;
   min-width: 450px;
-  vertical-align: middle;
   background-color: #1b1c1e;
   font-size: 12px;
   line-height: 9px;
   border-bottom: solid 1px #2d2d2d;
   border-top: solid 1px #2d2d2d;
   opacity: 0.95;
-  /*-webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;*/
   text-align: center;
   padding-top: 13px;
 }
@@ -194,17 +147,13 @@ a:hover {
   text-align: center;
   padding-top: 80px;
   padding-bottom: 20px;
-  padding-left: 10%;
-  padding-right: 10%;
-  margin: 0px;
 }
 .content1 {
   background-color: #212427;
   /*vertical-align: middle;*/
   color: #a1a1a1;
-  /*text-align: justify;*/
   font-size: 14px;
-  padding-top: 20px;
+  padding-top: 15px;
   padding-bottom: 60px;
   padding-left: 30px;
   padding-right: 30px;
@@ -214,14 +163,13 @@ a:hover {
   border: 1px solid #1d1d1d;
   margin: 0 auto;
 }
+
+.content1 ul li {
+  margin-left: -24px;
+}
+
 /*TERMINAL CSS BELOW*/
 .terminal .terminal-output .format, .cmd .format, .cmd .prompt, .cmd .prompt div, .terminal .terminal-output div div {
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
   display: inline-block;
 }
 .cmd .clipboard {
@@ -252,60 +200,13 @@ a:hover {
   -ms-animation: blink 1s infinite steps(1, start);
   animation: blink 1s infinite steps(1, start);
 }
-/*@keyframes blink {
-  0%, 100% {
-    background-color: #212121;
-    color: white;
-    ;
-  }
-  50% {
-    background-color: white;
-    /* not #aaa because it's seem there is Google Chrome bug */
-    /*color: #212121;*/
 
-/*@-webkit-keyframes blink {
-  0%, 100% {
-    background-color: #212121;
-    color: white;
-    ;
-  }
-  50% {
-    background-color: white;
-    color: #212121;
-    ;
-  }
-}*/
-/*@-ms-keyframes blink {
-  0%, 100% {
-    background-color: #212121;
-    color: white;
-    ;
-  }
-  50% {
-    background-color: white;
-    color: #212121;
-    ;
-  }
-}*/
-/*@-moz-keyframes blink {
-  0%, 100% {
-    background-color: #212121;
-    color: white;
-    ;
-  }
-  50% {
-    background-color: white;
-    color: #212121;
-    ;
-  }
-}*/
 .terminal .terminal-output div div, .cmd .prompt {
   display: block;
   line-height: 16px;
   height: auto;
 }
 .cmd .prompt {
-  /*color: #77ff8d;*/
   float: left;
 }
 .terminal, .cmd {
@@ -317,7 +218,6 @@ a:hover {
   line-height: 16px;
 }
 .terminal-output > div {
-  /*padding-top: 3px;*/
   min-height: 16px;
 }
 .terminal .terminal-output div span {
@@ -325,7 +225,6 @@ a:hover {
 }
 .cmd span {
   float: left;
-  /*display: inline-block; */
 }
 .terminal .inverted, .cmd .inverted, .cmd .cursor.blink {
   background-color: white;
@@ -342,13 +241,13 @@ a:hover {
 .terminal .terminal-output div.error, .terminal .terminal-output div.error div {
   color: #f6615a;
 }
-/*.tilda {
+.tilda {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   z-index: 1100;
-}*/
+}
 .clear {
   clear: both;
 }

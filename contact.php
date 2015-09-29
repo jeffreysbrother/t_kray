@@ -1,7 +1,7 @@
 <?php
 include 'inc/head.php';
 ?>
-    <div id="top_spacer"></div>
+    <!-- <div id="top_spacer"></div> -->
     <div id="title">
       <h2>CONTACT</h2>
     </div>

@@ -19,7 +19,7 @@
 </head>
 
 <body onload="startTime()">
-  <!-- <div id="tilda"></div> -->
+  <div id="tilda"></div>
 
     <div id="top_bar">
       <div id="top_left">TIMOTHY P. KRAY</div>

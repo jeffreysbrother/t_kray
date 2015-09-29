@@ -2,7 +2,7 @@
 include 'inc/head.php';
 ?>
 
-    <div id="top_spacer"></div>
+    <!-- <div id="top_spacer"></div> -->
     <div id="title">
       <h2>PORTFOLIO</h2>
     </div>
@@ -119,11 +119,12 @@ include 'inc/head.php';
             <a target="_blank" href="https://appsto.re/us/7eQj5.i">
               <img src='img/ios_badge.png'>
             </a>
+
             <p>
           <b>Features:</b>
           <p>
             <ul>
-              <li>Fast paced arcade game utilizing a physics engine</li>
+              <li>Fast-paced arcade game utilizing a physics engine</li>
               <li>Completely custom audio and visuals</li>
               <li>Leaderboards through iOS Gamecenter</li>
             </ul><b>Note:</b> This app is <a target="_blank" href="https://appsto.re/us/7eQj5.i">free</a> and compatible with iOS 6.0 and greater (although optimized for iOS 8.1).</div>

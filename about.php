@@ -2,7 +2,7 @@
   include 'inc/head.php';
 ?>
 
-    <div id="top_spacer"></div>
+    <!-- <div id="top_spacer"></div> -->
     <div id="title">
       <h2>ABOUT</h2>
     </div>
@@ -27,12 +27,11 @@
         <li><b>Software Development:</b> Atom, Sublime, Vi, Visual Studio, Eclipse, XCode, Git, Qt, FogBugz</li>
         <li><b>Information Technology:</b> Wireshark/PCAP, Shell/Terminal/Putty/Bash/SSH</li>
         <li><b>Operating Systems:</b> Windows, Mac OS, Linux(Ubuntu), iOS
-          <li>
-            <li><b>Audio Development:</b> FL Studio, Reaper, Audacity, Garage Band, Pro Tools</li>
-            <li><b>Game Development:</b> Unity, Unreal 4, UDK, CryEngine 3, Source Engine, Half-Life Engine, libGDX, SFML C++</li>
-            <li><b>Microsoft Office:</b> Word, Excel, Publisher, Front Page, Outlook, Visio</li>
-            <li><b>Serial Communications:</b> Modbus Poll RTU/TCP, Simply Modbus RTU/TCP, X-CTU, Self Written Tools</li>
-            <li><b>Miscellaneous:</b> WAMP/LAMP Server Stacks, Finanial Aid Database Software and Web Services, Base Camp, Epicor(9)</li>
+        <li><b>Audio Development:</b> FL Studio, Reaper, Audacity, Garage Band, Pro Tools</li>
+        <li><b>Game Development:</b> Unity, Unreal 4, UDK, CryEngine 3, Source Engine, Half-Life Engine, libGDX, SFML C++</li>
+        <li><b>Microsoft Office:</b> Word, Excel, Publisher, Front Page, Outlook, Visio</li>
+        <li><b>Serial Communications:</b> Modbus Poll RTU/TCP, Simply Modbus RTU/TCP, X-CTU, Self Written Tools</li>
+        <li><b>Miscellaneous:</b> WAMP/LAMP Server Stacks, Finanial Aid Database Software and Web Services, Base Camp, Epicor(9)</li>
     </div>
     <div class="content1">
       <h1>SKILLS:</h1>Below conains a list of skills that I have aquired either on my own as a hobbyist or on the job. Some of these, I've had more experience in than others.
@@ -51,10 +50,6 @@
     <div class="content1">
       <h1>WORK HISTORY:</h1>Below contains a brief resume starting with paid work from 2006 to present day. Most recent work, top to bottom. Unfortunately, a good portion of it, up until 2014, has been spent on jobs mostly irrelevant to my interests.
       <p>
-
-          <img align="left" src="img/down.png">
-          <img src="img/down.png">
-          <img align="right" src="img/down.png">
 
     </div>
     <div class="bottom_spacer"></div>
