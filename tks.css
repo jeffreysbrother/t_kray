@@ -2,12 +2,10 @@
 /*modified by James Cool September 2015*/
 
 /*@import url(http://fonts.googleapis.com/css?family=Open+Sans:300, 400, 600);*/
-
 @import url(http://fonts.googleapis.com/css?family=Roboto:300, 500);
 @import url(http://fonts.googleapis.com/css?family=Unica+One:400);
 
 /*Terminal Font*/
-
 @import url(http://fonts.googleapis.com/css?family=Ubuntu+Mono);
 @media screen and (max-width: 677px) {
   #top_left, #top_right {
@@ -82,12 +80,12 @@ img {
   border-bottom: solid 1px #2d2d2d;
   border-top: solid 1px #2d2d2d;
   opacity: 0.90;
-  -webkit-touch-callout: none;
+  /*-webkit-touch-callout: none;
   -webkit-user-select: none;
   -khtml-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
-  user-select: none;
+  user-select: none;*/
 }
 #top_left {
   color: white;
@@ -192,7 +190,6 @@ a:hover {
   padding-top: 13px;
 }
 
-}
 #title {
   text-align: center;
   padding-top: 80px;
@@ -248,7 +245,6 @@ a:hover {
 .cmd {
   padding: 0;
   margin: 0;
-
 }
 .cmd .cursor.blink {
   -webkit-animation: blink 1s infinite steps(1, start);
@@ -256,7 +252,7 @@ a:hover {
   -ms-animation: blink 1s infinite steps(1, start);
   animation: blink 1s infinite steps(1, start);
 }
-@keyframes blink {
+/*@keyframes blink {
   0%, 100% {
     background-color: #212121;
     color: white;
@@ -265,11 +261,9 @@ a:hover {
   50% {
     background-color: white;
     /* not #aaa because it's seem there is Google Chrome bug */
-    color: #212121;
-    ;
-  }
-}
-@-webkit-keyframes blink {
+    /*color: #212121;*/
+
+/*@-webkit-keyframes blink {
   0%, 100% {
     background-color: #212121;
     color: white;
@@ -280,8 +274,8 @@ a:hover {
     color: #212121;
     ;
   }
-}
-@-ms-keyframes blink {
+}*/
+/*@-ms-keyframes blink {
   0%, 100% {
     background-color: #212121;
     color: white;
@@ -292,8 +286,8 @@ a:hover {
     color: #212121;
     ;
   }
-}
-@-moz-keyframes blink {
+}*/
+/*@-moz-keyframes blink {
   0%, 100% {
     background-color: #212121;
     color: white;
@@ -304,7 +298,7 @@ a:hover {
     color: #212121;
     ;
   }
-}
+}*/
 .terminal .terminal-output div div, .cmd .prompt {
   display: block;
   line-height: 16px;
@@ -312,7 +306,6 @@ a:hover {
 }
 .cmd .prompt {
   /*color: #77ff8d;*/
-
   float: left;
 }
 .terminal, .cmd {
@@ -325,7 +318,6 @@ a:hover {
 }
 .terminal-output > div {
   /*padding-top: 3px;*/
-
   min-height: 16px;
 }
 .terminal .terminal-output div span {
@@ -334,8 +326,6 @@ a:hover {
 .cmd span {
   float: left;
   /*display: inline-block; */
-
-  ;
 }
 .terminal .inverted, .cmd .inverted, .cmd .cursor.blink {
   background-color: white;
@@ -365,8 +355,6 @@ a:hover {
 .terminal a {
   color: #5a95f6;
   /*#0F60FF;*/
-
-  ;
 }
 .terminal a:hover {
   color: red;
