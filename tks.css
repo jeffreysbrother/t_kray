@@ -7,11 +7,8 @@
 
 /*Terminal Font*/
 @import url(http://fonts.googleapis.com/css?family=Ubuntu+Mono);
-@media screen and (max-width: 677px) {
-  #top_left, #top_right {
-    display: none !important;
-  }
-}
+
+
 
 body {
   width: 100%;
@@ -179,6 +176,19 @@ a:hover {
   margin-right: 10%;
   border: 1px solid #1d1d1d;
   margin: 0 auto;
+}
+
+@media screen and (max-width: 677px) {
+  #top_left, #top_right {
+    display: none;
+  }
+  .content1 {
+    max-width: 655px;
+    padding-top: 2px;
+    padding-bottom: 35px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
 }
 
 /******** below rule is for the positioning of the unordered list items *********/
