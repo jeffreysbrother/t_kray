@@ -196,6 +196,11 @@ a:hover {
   padding-bottom: 15px;
 }
 
+/******** below rule is to set spacing between images/text *********/
+.stubborn {
+  padding-top: 10px;
+}
+
 /**************************************/
 /**************************************/
 /**************************************/
