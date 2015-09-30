@@ -25,7 +25,7 @@ include 'inc/head.php';
           <br>
           <p>Designing new album art ideas for ATLAS V's upcoming ablum: Wanderers. I did not create the background artwork used in these images. Full credit for the backgrounds goes to <a target="_blank" href="http://tk769.deviantart.com/gallery/">Adrian Mark Gillespie</a>.
           </p>
-          <b>You can listen to the latest singles, Collider and Satellite Anthem Europa, here:</b>
+          <b>You can listen to the latest singles here:</b>
             <ul>
               <li>Sound Cloud: <a target="_blank" href="https://soundcloud.com/atlas-v/collider">ATLAS V: Collider</a></li>
               <li>Sound Cloud: <a target="_blank" href="https://soundcloud.com/atlas-v/satellite-anthem-europa">ATLAS V: Satellite Anthem Europa</a></li>
@@ -84,7 +84,9 @@ include 'inc/head.php';
         This is a new mobile app that my brother and I are working on. I just started creating the concept artwork. This is still a work in progress. The concept involves moving a character side to side in order to hit the targets. Once a target is hit,
         the character is propelled up higher. The higher you get off the planet, the more points you will achieve. We have plans for additional features and mechanics.
       </p>
-            <img style="border: 5px solid #1e1e1e;" src="img/sd_teaser_anim2.gif">
+          <div>
+            <img id="gif" style="border: 5px solid #1e1e1e;" src="img/sd_teaser_anim2.gif">
+          </div>
           <p><b>Other Features:</b></p>
           <p>
             <ul>
@@ -103,9 +105,11 @@ include 'inc/head.php';
         the visuals and animation while he worked on the code and music. Together we created an extremly simple, yet addicting game. The objective of the game is simply to avoid getting hit by the falling cubes. Difficulty increases as time goes on.
       </p>
 
+          <div id="ios">
             <a target="_blank" href="https://appsto.re/us/7eQj5.i">
               <img src='img/ios_badge.png'>
             </a>
+          </div>
 
           <p><b>Features:</b></p>
             <ul>
@@ -406,6 +410,7 @@ include 'inc/head.php';
               <p>This map was created as a custom level for a game called Star Wars: Jedi Knight: Jedi Academy. That one tree in the back is just driving me nuts... Looking back at my old work makes me cringe sometimes! I also never got around to finishing
               this.</p>
             </div>
+
           <div class="content1">
             <h1>HL: COUNTER-STRIKE LEVEL DESIGN:</h1><b>Active Development:</b> 2001-2003
 
@@ -420,7 +425,7 @@ include 'inc/head.php';
                 <p>
               I created about 10-15 maps from 2001-2003, most of which were lost during a hard drive crash. I still have some of the bsp files though. I will eventually load them up in Counter-Strike and take some screenshots. Unfortunately, these two
               screenshots are all I could find on my current hard drive.</p>
-            </div>
+          </div>
 <?php
   include 'inc/footer.php';
 ?>

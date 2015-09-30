@@ -12,6 +12,7 @@
     display: none !important;
   }
 }
+
 body {
   width: 100%;
   margin: 0px;
@@ -27,12 +28,14 @@ b {
   color: #49a078;
   font-weight: 300;
 }
+
 h1 {
   font-family: 'Unica One', sans-serif;
   color: #b7efa1;
   font-weight: 400;
   font-size: 15px;
 }
+
 h2 {
   color: white;
   font-weight: 300;
@@ -40,24 +43,27 @@ h2 {
   letter-spacing: 5px;
   text-align: center;
 }
+
 h3 {
   font-family: 'Unica One', sans-serif;
   color: #ebf692;
   font-weight: 400;
   font-size: 15px;
 }
+
 img {
   max-width: 100%;
   height: auto;
   width: auto;
 }
+
 #tk_img {
   margin-left: 30px;
   margin-bottom: 15px;
 }
+
 #top_bar {
   font-family: 'Unica One', sans-serif;
-  /*word-spacing: 5vw;*/
   position: fixed;
   left: 0px;
   top: 0px;
@@ -72,16 +78,19 @@ img {
   border-top: solid 1px #2d2d2d;
   opacity: 0.90;
 }
+
 #top_left {
   color: white;
   float: left;
   padding-left: 22px;
   min-width: 120px;
 }
+
 #top_right {
   float: right;
   min-width: 120px;
 }
+
 #top_items {
   display: inline-block;
 }
@@ -95,36 +104,44 @@ img {
 #back_top {
   font-family: 'Unica One', sans-serif;
 }
+
 a {
   color: #57d0ff;
-  font-weight: 300;
   text-decoration: none;
 }
+
 a:hover {
   color: white;
   text-decoration: none;
 }
+
 ::-webkit-scrollbar {
   width: 10px;
 }
+
 ::-webkit-scrollbar-track {
   background-color: #272727;
 }
+
 ::-webkit-scrollbar-thumb {
   background-color: #dd5a26;
 }
+
 ::-webkit-scrollbar-button {
   background-color: #1d1d1d;
   height: 36px;
   border-bottom: solid 1px #2d2d2d;
   border-top: solid 1px #2d2d2d;
 }
+
 #top_spacer {
   height: 35px;
 }
+
 .bottom_spacer {
   height: 35px;
 }
+
 #footer {
   font-family: 'Unica One', sans-serif;
   position: fixed;
@@ -148,9 +165,9 @@ a:hover {
   padding-top: 80px;
   padding-bottom: 20px;
 }
+
 .content1 {
   background-color: #212427;
-  /*vertical-align: middle;*/
   color: #a1a1a1;
   font-size: 14px;
   padding-top: 15px;
@@ -164,14 +181,25 @@ a:hover {
   margin: 0 auto;
 }
 
+/******** below rule is for the positioning of the unordered list items *********/
 .content1 ul li {
   margin-left: -24px;
 }
 
-/*img {
-  margin-bottom: 10px;
-  margin-top: 10px;
-}*/
+#gif {
+  margin: 0 auto;
+  width: 100%;
+}
+
+#ios {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+/**************************************/
+/**************************************/
+/**************************************/
+/**************************************/
 
 
 /*TERMINAL CSS BELOW*/
@@ -259,7 +287,6 @@ a:hover {
 }
 .terminal a {
   color: #5a95f6;
-  /*#0F60FF;*/
 }
 .terminal a:hover {
   color: red;
