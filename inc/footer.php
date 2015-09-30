@@ -1,8 +1,8 @@
 <div class="bottom_spacer"></div>
 
 <div id="footer">
-  <p>COPYRIGHT © 2015 TIM KRAY</p>
+  <p>COPYRIGHT &copy; <?php echo date('Y'); ?> TIM KRAY</p>
 </div>
-</body>
 
+</body>
 </html>
