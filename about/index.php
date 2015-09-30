@@ -10,11 +10,10 @@
     <div class="bottom_spacer"></div>
     <div class="content1">
       <h1>ABOUT ME:</h1>
-      <a target="_blank" href="img/tk.png">
-        <img id="tk_img" align="right" style="border: 5px solid #1e1e1e;" src="img/tk_thumb.png">
+      <a target="_blank" href="../img/tk.png">
+        <img id="tk_img" align="right" style="border: 5px solid #1e1e1e;" src="../img/tk_thumb.png">
       </a>
-      <p>These days I consider myself a mix between a graphic designer and a software engineer/developer. I suppose I just like to do a bit of everything. I'm a "DIY" hobbyist; from electrical and mechanical, to multi-media design and software projects, I have always enjoyed creating things and solving problems.
-      </p>
+      <p>These days I consider myself a mix between a graphic designer and a software engineer/developer. I suppose I just like to do a bit of everything. I'm a "DIY" hobbyist; from electrical and mechanical, to multi-media design and software projects, I have always enjoyed creating things and solving problems.</p>
       <p>My strongest abilities have always resided in multi-media and graphic design. I took up drawing from before I can even remember and after my first multi-media class in middle school, it kind of took off from there. I started branching off into software
       development when I was eleven years old, just getting my foot in the door. I started with level design for a popular computer game called Counter-Strike,creating my own playable maps. By the time I reached high school, I had ventured off into
       3D modeling/animation, 2D texturing(skinning), basic audio engineering, and web development. In a few of my past development teams, I was designated as the 'multi-tasker.' I just couldn't help myself from learning everything I can about almost
@@ -52,6 +51,7 @@
       </ul>
     </div>
     <div class="bottom_spacer"></div>
+
     <div class="content1">
       <h1>WORK HISTORY:</h1>
       <p>Below contains a brief resume starting with paid work from 2006 to present day. Most recent work, top to bottom. Unfortunately, a good portion of it, up until 2014, has been spent on jobs mostly irrelevant to my interests. </p>
@@ -72,6 +72,7 @@
           <li>Soldering/de-soldering circuit board components, wiring of electronic circuits, custom hardware and cabling for testing.</li>
         </ul>
     </div>
+
     <div class="content1">
       <h3>CORINTHIAN COLLEGES INC. (SOCLE) - SANTA ANA, CA: 02/2013-02/2014</h3>
       <p><b>Position:</b> Student Loan Specialist</p>
@@ -85,6 +86,7 @@
           <li>Provide grace counseling for students upon graduation and completion of program.</li>
         </ul>
     </div>
+
     <div class="content1">
       <h3>SECURITAS SECURITY SERVICES USA - HONOLULU, HI: 09/2011-01/2012</h3>
       <p><b>Position:</b> Shift Supervisor</p>
@@ -97,6 +99,7 @@
           <li>Recorded and enforced daily patrols and routines for all officers on duty.</li>
         </ul>
     </div>
+
     <div class="content1">
       <h3>SHIN WOO CORPORATION - HONOLULU, HI: 05/2011-11/2011</h3>
       <p><b>Position:</b> Assistant Warehouse Manager</p>
@@ -120,6 +123,7 @@
           <li>Provided technical support and network troubleshooting within the office as well as network wiring/setup.</li>
         </ul>
     </div>
+
     <div class="content1">
       <h3>NUCOURSE DISTRIBUTION - SIGNAL HILL, CA: 07/2007-11/2008</h3>
       <p><b>Position:</b> Graphic/Web Developer & IT Specialist</p>
@@ -132,6 +136,7 @@
           <li>Provided technical support and network troubleshooting within the office as well as network wiring/setup.</li>
         </ul>
     </div>
+
     <div class="content1">
       <h3>BEST BUY GEEK SQUAD - LAKEWOOD, CA: 09/2006-01/2007</h3>
       <p><b>Position:</b> C.I.A. (In-Store Technician)</p>
