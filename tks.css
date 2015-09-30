@@ -158,6 +158,7 @@ a:hover {
 }
 
 #title {
+  float: none;
   text-align: center;
   padding-top: 80px;
   padding-bottom: 20px;
@@ -179,7 +180,7 @@ a:hover {
 }
 
 @media screen and (max-width: 677px) {
-  #top_left, #top_right {
+  #top_right, div #top_left {
     display: none;
   }
   .content1 {
@@ -188,6 +189,35 @@ a:hover {
     padding-bottom: 35px;
     padding-left: 5px;
     padding-right: 5px;
+  }
+  #top_left {
+    display: block;
+  }
+  #top_items li {
+    display: block;
+    text-align: center;
+  }
+  #top_bar {
+    height: 110px;
+    width: 100%;
+    min-width: 400px;
+    vertical-align: middle;
+    background-color: #1b1c1e;
+    line-height: 34px;
+    font-size: 17px;
+    border-bottom: solid 1px #2d2d2d;
+    border-top: solid 1px #2d2d2d;
+    opacity: 0.90;
+  }
+  #top_items {
+    margin: 0 auto;
+    margin-left: 50%;
+    margin-right: 50%;
+    /*text-align: center;*/
+  }
+  h2.first {
+    margin-top: 80px;
+    margin-bottom: 0px;
   }
 }
 

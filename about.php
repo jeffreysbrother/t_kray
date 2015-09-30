@@ -4,7 +4,7 @@
 
     <!-- <div id="top_spacer"></div> -->
     <div id="title">
-      <h2>ABOUT</h2>
+      <h2 class="first">ABOUT</h2>
     </div>
 
     <div class="bottom_spacer"></div>

@@ -2,9 +2,8 @@
 include 'inc/head.php';
 ?>
 
-    <!-- <div id="top_spacer"></div> -->
     <div id="title">
-      <h2>PORTFOLIO</h2>
+      <h2 class="first">PORTFOLIO</h2>
     </div>
 
     <div class="bottom_spacer"></div>

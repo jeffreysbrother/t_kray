@@ -19,6 +19,7 @@
 </head>
 
 <body onload="startTime()">
+
   <div id="tilda"></div>
 
     <div id="top_bar">
