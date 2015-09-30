@@ -1,5 +1,5 @@
 <?php
-  include 'inc/head.php';
+  include '../inc/head.php';
 ?>
 
     <!-- <div id="top_spacer"></div> -->
