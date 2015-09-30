@@ -15,9 +15,8 @@
       </a>
       <p>These days I consider myself a mix between a graphic designer and a software engineer/developer. I suppose I just like to do a bit of everything. I'm a "DIY" hobbyist; from electrical and mechanical, to multi-media design and software projects, I have always enjoyed creating things and solving problems.</p>
       <p>My strongest abilities have always resided in multi-media and graphic design. I took up drawing from before I can even remember and after my first multi-media class in middle school, it kind of took off from there. I started branching off into software
-      development when I was eleven years old, just getting my foot in the door. I started with level design for a popular computer game called Counter-Strike,creating my own playable maps. By the time I reached high school, I had ventured off into
-      3D modeling/animation, 2D texturing(skinning), basic audio engineering, and web development. In a few of my past development teams, I was designated as the 'multi-tasker.' I just couldn't help myself from learning everything I can about almost
-      anything that I could get my hands on.</p>
+      development when I was eleven years old, just getting my foot in the door. I started with level design for a popular computer game called Counter-Strike, creating my own playable maps. By the time I reached high school, I had ventured off into
+      3D modeling/animation, 2D texturing (skinning), basic audio engineering, and web development. In a few of my past development teams, I was designated as the 'multi-tasker.' I couldn't help myself from learning everything.</p>
       <p>At this point in my life, I have dabbled in nearly every area of multi-media with relatively strong confidence, and a decent amount of hardware and software engineering along the way.</p>
     </div>
 
@@ -47,7 +46,6 @@
         <li><b>Software:</b> Software Design, Engineering, Development/Scripting, Source/Version Control, Bug Testing & Tracking, Python, C++, C#, Visual Basic, Java, JavaScript, PHP, HTML, JQuery,CSS, SQL, Ladder Logic</li>
         <li><b>Hardware/IT:</b> PC/Mac/Linux Construction, Troubleshooting, Repair, Soldering, Circuit Repair, Wiring, Packet Disection, Network Setup & Troubleshooting, SysAdmin, Server Setup, Teensy Micro Controller, Serial Communication Spoofing</li>
         <li><b>Leadership:</b> Project Management in Engineering/Software/Game Development, Warehouse management, Building Security Detail</li>
-        <li><b>Miscellaneous:</b> Construction(I did construction briefly as a side job, as well as assisting my father(Electrician) growing up)</li>
       </ul>
     </div>
     <div class="bottom_spacer"></div>
