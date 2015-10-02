@@ -24,7 +24,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $error_message = "Your form submission has an error.";
   }
 
-  require_once(ROOT_PATH . "/inc/class.phpmailer.php");
+  require_once(ROOT_PATH . "inc/class.phpmailer.php");
   $mail = new PHPMailer();
 
   if (!isset($error_message) && !$mail->ValidateAddress($email)){
@@ -65,7 +65,7 @@ include (ROOT_PATH . "inc/head.php");
 
     <?php
 if (isset($_GET["status"]) AND $_GET["status"] == "thanks") { ?>
-        <h1 class="thanks">Thanks for the email!</h1>
+        <h2 class="thanks"><b>Thanks for the email!<b></h2>
 <?php } else { ?>
 
             <?php
@@ -94,12 +94,12 @@ if (isset($_GET["status"]) AND $_GET["status"] == "thanks") { ?>
                             <input type="text" name="address" id="address">
                             <p style="display: none;">Humans: please leave this field blank.</p>
                         </p>
-                <input class="button1" type="submit" value="Send">
+                <input class="button1" type="submit" value="SUBMIT">
             </form>
     </div>
 
     <?php } ?>
 
 <?php
-  include ('ROOT_PATH . "inc/footer.php');
+  include (ROOT_PATH . 'inc/footer.php');
 ?>

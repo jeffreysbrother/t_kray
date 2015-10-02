@@ -247,6 +247,89 @@ a:hover {
 /*******************************************************************/
 
 
+
+/**********************************
+CONTACT PAGE
+***********************************/
+
+label {
+  font-weight: 100;
+}
+
+input, textarea {
+    padding: 10px;
+    /*border: 1px solid #E5E5E5;*/
+    /*width: 200px;*/
+}
+
+form {
+  padding-top: 10px;
+}
+
+textarea {
+  background-color: white;
+  width: 400px;
+  height: 250px;
+  width: 100%;;
+  color: black;
+}
+
+input {
+  color: black;
+}
+
+.form1 {
+  width: 100%;
+}
+
+.button1 {
+  /*font-weight: bold;*/
+  background-color: #49a078;
+  width: 100%;
+  border: none;
+  color: white;
+}
+
+/* p.message is for the error message styles */
+p.message {
+    /*background: #E7D3B1;*/
+    /*border: 1px solid #f16702;*/
+    padding: 1em;
+    width: 100%;
+    color: red;
+    /*padding-right: 60px;*/
+    text-align: center;
+    font-weight: bold;
+}
+
+span a {
+  font-size: 21px;
+  letter-spacing: 15px;
+  padding-left: 10px;
+}
+
+i, .thanks {
+  color: #bdbdbd;
+}
+
+.copyright {
+  display: inline;
+  padding-right: 10px;
+  font-size: 1em;
+}
+
+.text-bottom {
+  text-align: center;
+}
+
+.bottom-spacer {
+  height: 160px;
+}
+
+
+/*****************************************************/
+
+
 /*TERMINAL CSS BELOW*/
 .terminal .terminal-output .format, .cmd .format, .cmd .prompt, .cmd .prompt div, .terminal .terminal-output div div {
   display: inline-block;
