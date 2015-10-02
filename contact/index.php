@@ -1,5 +1,7 @@
 <?php
 
+require_once("../inc/config.php");
+
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $name = trim($_POST["name"]);
   $email = trim($_POST["email"]);
@@ -22,7 +24,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $error_message = "Your form submission has an error.";
   }
 
-  require_once("inc/class.phpmailer.php");
+  require_once(ROOT_PATH . "/inc/class.phpmailer.php");
   $mail = new PHPMailer();
 
   if (!isset($error_message) && !$mail->ValidateAddress($email)){
@@ -42,7 +44,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       $mail->MsgHTML($email_body);
 
       if($mail->Send()){
-          header("Location: contact.php?status=thanks");
+          header("Location: " . BASE_URL . "contact/?status=thanks");
           exit;
       } else {
         $error_message = "There was a problem sending the email: " . $mail->ErrorInfo;
@@ -51,16 +53,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 }
 ?>
 
-
 <?php
 $pageTitle = "contact.php";
-include '../inc/head.php';
+include (ROOT_PATH . "inc/head.php");
 ?>
     <!-- <div id="top_spacer"></div> -->
     <div id="title">
       <h2 class="first">CONTACT</h2>
     </div>
-    <div class="bottom_spacer"></div>
 
 
     <?php
@@ -75,9 +75,9 @@ if (isset($_GET["status"]) AND $_GET["status"] == "thanks") { ?>
             ?>
 
 
-
+    <div class="bottom_spacer"></div>
     <div class="content1">
-      <form class="contact_form" method="post" action="contact.php">
+      <form class="contact_form" method="post" action="<?php echo BASE_URL; ?>contact/">
                         <p>
                             <input class="form1" type="text" name="name" id="name" placeholder="name" value="<?php if (isset($name)) { echo htmlspecialchars($name); }?>">
                         </p>
@@ -101,5 +101,5 @@ if (isset($_GET["status"]) AND $_GET["status"] == "thanks") { ?>
     <?php } ?>
 
 <?php
-  include '../inc/footer.php';
+  include ('ROOT_PATH . "inc/footer.php');
 ?>
