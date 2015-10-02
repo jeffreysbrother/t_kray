@@ -87,7 +87,7 @@ if (isset($_GET["status"]) AND $_GET["status"] == "thanks") { ?>
                         </p>
 
                         <p>
-                            <textarea name="message" id="message" placeholder="message me!"><?php if (isset($message)) { echo htmlspecialchars($message); }?></textarea>
+                            <textarea name="message" id="message" placeholder="message"><?php if (isset($message)) { echo htmlspecialchars($message); }?></textarea>
                         </p>
 
                         <p style="display: none;">
